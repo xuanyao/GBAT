@@ -1,0 +1,12 @@
+samples: /ye/zaitlenlabstore/xuanyao/GE_cvp/scripts/DGN/github/test/subset.samples ##sample ids that matchs the bam file names;
+BAM_DIR: /ye/zaitlenlabstore/xuanyao/GE_cvp/scripts/DGN/github/test/BAM/BAM_input/ ##put directory containing your input BAM file for filtering here
+BAM_OUT: /ye/zaitlenlabstore/xuanyao/GE_cvp/scripts/DGN/github/test/BAM/BAM_output/ ##put output directory of filtered BAM files
+count_DIR: /ye/zaitlenlabstore/xuanyao/GE_cvp/scripts/DGN/github/test/count/ ##put output directory for featurecount output
+tool_DIR: /ye/zaitlenlabstore/xuanyao/GE_cvp/scripts/DGN/github/scripts/ ##the directory containing all the cvblup script etc
+gtf_DIR: /ye/zaitlenlabstore/xuanyao/GE_cvp/scripts/DGN/github/test/ ##this is the directory that containing the gtf file("hg19.mappability.filtered.gtf") for featurecount
+trans_DIR: /ye/zaitlenlabstore/xuanyao/GE_cvp/scripts/DGN/github/test/analysis/ ##the output directory containing all trans analaysis output
+python_DIR: ~/src/miniconda2/envs/myenv_python3/bin/ ##directory where python 3.? is located
+Rscript_DIR: ~/src/miniconda2/bin/ ##directory where Rscript is located, try command 'which Rscript'
+genotype_DIR: /ye/zaitlenlabstore/xuanyao/GE_cvp/scripts/DGN/github/test/genotype/ ##directory containing all the genotype files in plink bfile format separated for each chromosome, file name should be chr1.bed, chr1.bim chr1.fam etc; samples should be in the same order as the samples file
+genpc_DIR: /ye/zaitlenlabstore/xuanyao/GE_cvp/scripts/DGN/github/test/all.covar ##the file that contains all the covariates in predicting genetic values of gene expression. The file has no header, samples should be in the same order as samples
+num_sv: '20' ##number of SVs used, default is 20.

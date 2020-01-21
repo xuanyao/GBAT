@@ -1,0 +1,41 @@
+{
+ "__default__":
+{
+ "logo":"snake_h2o",
+ "loge":"snake_h2e",
+ "restart":"y",
+ "time":"0-01:00",
+ "partition":"broadwl",
+ "mem":"10G"
+},
+ "filter":
+{
+ "time":"0-03:00"
+},
+ "qval":
+{
+ "time":"0-02:00",
+ "mem":"20G"
+},
+ "sva":
+{
+ "time":"0-02:00"
+},
+ "cvBLUP":
+{
+ "time":"0-02:00",
+ "mem":"20G"
+},
+ "pearsonR":
+{
+ "time":"0-00:10",
+ "mem":"1G"
+},
+ "cor":
+{
+ "time":"0-03:00"	
+}
+
+}
+
+
